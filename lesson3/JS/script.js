@@ -43,25 +43,25 @@ if ( day >= 1 && day <= 10) {
 
 let number = +prompt("put the number of day where (1-Monday...7-Sunday");
 switch (number){
-    case number = 1:
+    case 1:
         console.log("Monday");
         break;
-    case number = 2:
+    case 2:
         console.log("Tuesday");
         break;
-    case number = 3:
+    case 3:
         console.log("Wednesday");
         break;
-    case number = 4:
+    case 4:
         console.log("Thursday");
         break;
-    case number = 5:
+    case 5:
         console.log("Friday");
         break;
-    case number = 6:
+    case 6:
         console.log("Saturday");
         break;
-    case number = 7:
+    case 7:
         console.log("Sunday");
         break;
     default:
