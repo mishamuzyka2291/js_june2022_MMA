@@ -32,10 +32,10 @@ function iteration(array){
 iteration(array1);
 //- створити функцію яка створює параграф з текстом. Текст задати через аргумент
 
-function create_p(text){
+function createP(text){
     document.write(`<p>${text}</p>`);
 }
-create_p("Lorem ipsum dolor sit.");
+createP("Lorem ipsum dolor sit.");
 
 //- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 
