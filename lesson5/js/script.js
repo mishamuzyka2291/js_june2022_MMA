@@ -39,37 +39,37 @@ create_p("Lorem ipsum dolor sit.");
 
 //- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
 
-function create_ulli(text){
+function createUlLi(text){
     document.write(`<ul>`)
     for (let i =0; i<3; i++ ){
         document.write(`<li>${text}</li>`);
     }
     document.write(`</ul>`);
 }
-create_ulli("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, nostrum!")
+createUlLi("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, nostrum!")
 
 //- створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
 
-function create_ul_li(text,number){
+function createulli(text,number){
     document.write(`<ul>`)
     for (let i =0; i<number; i++ ){
         document.write(`<li>${text}</li>`);
     }
     document.write(`</ul>`);
 }
-create_ul_li("Hello Okten", 5);
+createulli("Hello Okten", 5);
 
 //- створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
 
 let array2 = [56, "string", true];
 
-function create_listForArray(array){
+function createListForArray(array){
     document.write(`<ul>`)
     for (const item of array) {
         document.write(`<li>${item}</li>`);
     }
 }
-create_listForArray(array2);
+createListForArray(array2);
 
 //- створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
 
@@ -87,7 +87,7 @@ createListOfObject(users);
 
 //- створити функцію яка повертає найменьше число з масиву
 let array3 = [20, 67, 55, 14, 16];
-function min_number(array){
+function minNumber(array){
     let min = array3[0];
     for (const item of array) {
         if (min>item){
@@ -96,7 +96,7 @@ function min_number(array){
         }
     }
 }
-min_number(array3);
+minNumber(array3);
 
 //- створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
