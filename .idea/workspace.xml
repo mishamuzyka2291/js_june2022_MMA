@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bdeca1c-42a5-4507-9cb0-82be49bdd7d4" name="Changes" comment="Modern code">
-      <change afterPath="$PROJECT_DIR$/lesson4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson4/js/script.js" afterDir="false" />
+    <list default="true" id="2bdeca1c-42a5-4507-9cb0-82be49bdd7d4" name="Changes" comment="Homework 4">
+      <change afterPath="$PROJECT_DIR$/lesson5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson5/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +80,8 @@
       <workItem from="1659266696164" duration="4489000" />
       <workItem from="1659342958450" duration="469000" />
       <workItem from="1659470663540" duration="2388000" />
-      <workItem from="1659538746759" duration="1477000" />
+      <workItem from="1659538746759" duration="1776000" />
+      <workItem from="1659683669764" duration="6069000" />
     </task>
     <task id="LOCAL-00001" summary="js_script1">
       <created>1658751506736</created>
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659343217436</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Homework 4">
+      <created>1659540384822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1659540384822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +184,7 @@
     <MESSAGE value="first task" />
     <MESSAGE value="HW 3" />
     <MESSAGE value="Modern code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modern code" />
+    <MESSAGE value="Homework 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 4" />
   </component>
 </project>
