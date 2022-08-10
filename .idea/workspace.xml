@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bdeca1c-42a5-4507-9cb0-82be49bdd7d4" name="Changes" comment="Homework 5" />
+    <list default="true" id="2bdeca1c-42a5-4507-9cb0-82be49bdd7d4" name="Changes" comment="Homework 5 ... fix some mistakes ...">
+      <change afterPath="$PROJECT_DIR$/lesson6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson6/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +82,8 @@
       <workItem from="1659470663540" duration="2388000" />
       <workItem from="1659538746759" duration="1776000" />
       <workItem from="1659683669764" duration="6442000" />
+      <workItem from="1659690426955" duration="367000" />
+      <workItem from="1660130664312" duration="7662000" />
     </task>
     <task id="LOCAL-00001" summary="js_script1">
       <created>1658751506736</created>
@@ -163,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659689991240</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Homework 5 ... fix some mistakes">
+      <created>1659690624468</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659690624468</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Homework 5 ... fix some mistakes ...">
+      <created>1659690712666</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659690712666</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +209,8 @@
     <MESSAGE value="Modern code" />
     <MESSAGE value="Homework 4" />
     <MESSAGE value="Homework 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 5" />
+    <MESSAGE value="Homework 5 ... fix some mistakes" />
+    <MESSAGE value="Homework 5 ... fix some mistakes ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 5 ... fix some mistakes ..." />
   </component>
 </project>
