@@ -87,7 +87,7 @@ console.log(filter);
 
 // описати колоду карт
 let cards = [
-    {cardSuit:'clubs', value: '7', color:'black'},
+    {cardSuit:'null', value: 'Joker', color:'black'},
     {cardSuit:'spades', value: 'Ace', color:'black'},
     {cardSuit:'heart', value: '6', color:'red'},
     {cardSuit:'heart', value: 'Queen', color:'red'},
@@ -109,5 +109,5 @@ console.log(filter2);
 let filter3 = cards.filter(item => item.cardSuit === 'tambourine');
 console.log(filter3);
 // - всі трефи від 9 та більше
-let filter4 = cards.filter(item => item.cardSuit === 'clubs' && +item.value >9 && item.value === 'King'  );  // не розумію як порівняти короля, туз і тд.
+let filter4 = cards.filter(item => item.cardSuit === 'clubs' &&  !+item.value < 9 );  // не розумію як порівняти короля, туз і тд.
 console.log(filter4);
