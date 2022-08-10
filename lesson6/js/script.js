@@ -87,7 +87,7 @@ console.log(filter);
 
 // описати колоду карт
 let cards = [
-    {cardSuit:'null', value: 'Joker', color:'black'},
+    {cardSuit:'clubs', value: 'Jack', color:'black'},
     {cardSuit:'spades', value: 'Ace', color:'black'},
     {cardSuit:'heart', value: '6', color:'red'},
     {cardSuit:'heart', value: 'Queen', color:'red'},
