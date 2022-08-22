@@ -278,48 +278,48 @@ let simpsons = [
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
 // (Додатковачастина для завдання)
 
-// let f1 = document.createElement('form');
-// document.body.appendChild(f1);
-// for (let i = 0; i < 3; i++){
-//     let input = document.createElement("input");
-//     f1.appendChild(input);
-//     switch (i){
-//         case 0:
-//             input.name = 'label1';
-//             input.placeholder = 'enter amount of rows';
-//             break
-//         case 1:
-//             input.name = 'label2';
-//             input.placeholder = 'enter amount of columns';
-//             break
-//         case 2:
-//             input.name = 'label3';
-//             input.placeholder = 'enter information in table';
-//             break
-//     }
-//
-// }
-// let button = document.createElement('button');
-// button.innerText = 'Send information';
-// f1.onsubmit = function (e){
-//   e.preventDefault();
-//     console.log(this.label1.value);
-//     console.log(this.label2.value);
-//     console.log(this.label3.value);
-//     let array = [this.label1.value, this.label2.value, this.label3.value]
-//     let mainDiv = document.createElement('div');
-//     mainDiv.classList.add('mainDiv');
-//     document.body.appendChild(mainDiv);
-//     for (let i = 0; i < array[0]; i++){
-//         let div = document.createElement("div");
-//         div.classList.add('row');
-//         mainDiv.appendChild(div);
-//         for( let i = 0; i < array[1]; i++){
-//             let divInDiv = document.createElement('div')
-//             divInDiv.classList.add('divInDiv');
-//             divInDiv.innerText = `${array[2]}`
-//             div.appendChild(divInDiv);
-//         }
-//     }
-// }
-// f1.appendChild(button);
+let f1 = document.createElement('form');
+document.body.appendChild(f1);
+for (let i = 0; i < 3; i++){
+    let input = document.createElement("input");
+    f1.appendChild(input);
+    switch (i){
+        case 0:
+            input.name = 'label1';
+            input.placeholder = 'enter amount of rows';
+            break
+        case 1:
+            input.name = 'label2';
+            input.placeholder = 'enter amount of columns';
+            break
+        case 2:
+            input.name = 'label3';
+            input.placeholder = 'enter information in table';
+            break
+    }
+
+}
+let button = document.createElement('button');
+button.innerText = 'Send information';
+f1.onsubmit = function (e){
+  e.preventDefault();
+    console.log(this.label1.value);
+    console.log(this.label2.value);
+    console.log(this.label3.value);
+    let array = [this.label1.value, this.label2.value, this.label3.value]
+    let mainDiv = document.createElement('div');
+    mainDiv.classList.add('mainDiv');
+    document.body.appendChild(mainDiv);
+    for (let i = 0; i < array[0]; i++){
+        let div = document.createElement("div");
+        div.classList.add('row');
+        mainDiv.appendChild(div);
+        for( let i = 0; i < array[1]; i++){
+            let divInDiv = document.createElement('div')
+            divInDiv.classList.add('divInDiv');
+            divInDiv.innerText = `${array[2]}`
+            div.appendChild(divInDiv);
+        }
+    }
+}
+f1.appendChild(button);
