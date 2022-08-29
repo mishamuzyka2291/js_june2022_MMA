@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2bdeca1c-42a5-4507-9cb0-82be49bdd7d4" name="Changes" comment="Homework 9 ...">
+    <list default="true" id="2bdeca1c-42a5-4507-9cb0-82be49bdd7d4" name="Changes" comment="Homework 9 ..">
+      <change afterPath="$PROJECT_DIR$/mini project/css/post-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini project/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini project/css/user-details.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini project/js/post-details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini project/js/script.details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini project/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini project/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mini project/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson9/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,20 +43,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Acer/Desktop/js_june2022_MM-master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Acer/Desktop/js_june2022_MM-master",
+    "list.type.of.created.stylesheet": "CSS",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="js_june2022_MM" />
@@ -89,7 +99,8 @@
       <workItem from="1660981092215" duration="16555000" />
       <workItem from="1661155767769" duration="5907000" />
       <workItem from="1661172334194" duration="73000" />
-      <workItem from="1661187471806" duration="4315000" />
+      <workItem from="1661187471806" duration="4558000" />
+      <workItem from="1661582932339" duration="39211000" />
     </task>
     <task id="LOCAL-00001" summary="js_script1">
       <created>1658751506736</created>
@@ -231,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661187510567</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Homework 9 ..">
+      <created>1661192001892</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1661192001892</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +281,7 @@
     <MESSAGE value="Homework 6 ..." />
     <MESSAGE value="Homework 8 ..." />
     <MESSAGE value="Homework 9 ..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 9 ..." />
+    <MESSAGE value="Homework 9 .." />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 9 .." />
   </component>
 </project>

@@ -1,0 +1,41 @@
+.div-comments{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+body{
+    height: 900px;
+    background: sienna;
+}
+.li-comment-key{
+    width: 100%;
+}
+.ul-div{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: cadetblue 2px solid;
+    width: 20%;
+margin: 10px;
+}
+.ul-div > .li-comment-key{
+    background: azure;
+    margin: 3px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.div-post > .div-post-keys{
+    background: bisque;
+    margin: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+.div-post{
+    border: darkorange 1px solid;
+}

@@ -1,0 +1,57 @@
+button{
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 20px;
+    background: silver;
+}
+body{
+    height: 900px;
+    background: sienna;
+}
+
+.U-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: burlywood;
+    border-radius: 5px;
+    margin: 2px;
+}
+.main-div{
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    border: darksalmon 1px solid;
+}
+.ul-div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-li-div{
+    margin: 5px;
+    width: 19%;
+    background: blanchedalmond;
+    border-radius: 10px;
+}
+.title{
+    text-align: center;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+}
+p{
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 8px ;
+    background: sandybrown;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
